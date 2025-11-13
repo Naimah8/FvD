@@ -62,24 +62,37 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
    ### Bevindingen WCAG
   Lijst met je bevindingen die in de test naar voren kwamen:
+
   -Content: op de homepagina zijn de buttons en links niet uniek.
+
   -Global code: Enorm veel errors in HTML, en geen duidelijke titles per pagina. De taal veranderd wel mee met de pagina:
   <img src="readme-images/globalcode-screenshot1.png" alt="Kiest voor EN ende taalveranderd mee">
   <img src="readme-images/globalcode-screenshot2.png" alt="Kiest voor NL ende taalveranderd mee">
+
   -Keyboard: Het is niet duidelijk genoeg waar de focus op staat door kleur contrast:<img src="readme-images/Keyboard-screenshot1.png" alt="Geselecteerde button met weinig contrast">
+
   -Mobile and touch: De website is extreem goed voor mobiel gebruik, en gebruikt grote duidelijke knoppen met genoeg afstand: 
   <img src="readme-images/mobile-and-touch-screenshot1.png" alt="mobile screen met een grote knop en witruimte">
-  -Headings: De website maakt gebruik van headings in een duidelijke volgordere, volgends de regels en zonder een heading level te skippen. 
+
+  -Headings: De website maakt gebruik van headings in een duidelijke volgordere, volgends de regels en zonder een heading level te skippen.
+
   -Lists: De website maakt regelmatig gebruik van list items.
+
   -Images: Er zijn geen images zonder doel op deze website, maar maakt wel gebruikt van een alt bij img's. Alleen klopt deze alt niet altijd zoals bij het plaatje van de redvelvet latte waar "holliday campain" staat: 
   <img src="readme-images/images-screenshot1.png" alt="Geselecteerd plaatje van redvelvet latte">
+
   -Media: De website heeft geen Videos of audios.
-  -Controls: Er wordt vrijwel altijd gebruik gebruik gemaakt van een a element bij een link, deze zijn dan ook te herkennen als link. Er wordt zelden gebruik gemaakt van een button element voor een button dit gebruikt maar bij één button op de homepagina: <img src="readme-images/controls-screenshot1.png" alt="Button op de website wordt aangegeven als button"> <img src="readme-images/controls-screenshot2.png" alt="Button op de website wordt niet aangegeven als button">
+
+  -Controls: Er wordt vrijwel altijd gebruik gebruik gemaakt van een a element bij een link, deze zijn dan ook te herkennen als link. Er wordt zelden gebruik gemaakt van een button element voor een button dit gebruikt maar bij één button op de homepagina: 
+  <img src="readme-images/controls-screenshot1.png" alt="Button op de website wordt aangegeven als button"> <img src="readme-images/controls-screenshot2.png" alt="Button op de website wordt niet aangegeven als button">
 
   De links openen dan ook niet op een ander tablat.
   -Appearance: Darkmode wordt niet gesupport op de website. Ook kan de text niet groter dan het standaard formaat.
+
   -Animation: Er zijn bijna geen animations op de website, alleen kleine subtiele dingen zoals het uitklappen van het hamburger menu wat geleidelijk gaat. 
-  -Color contrast: Er is een duidelijk verschil tussen achtergrond en tekst op de website, op een donkere achtergrond wordt bijvoorbeeld gebruik gemaakt van witte tekst en andersom:<img src="readme-images/colorcontrast-screenshot1.png" alt="Witte button groene achtergrond"> <img src="readme-images/colorcontrast-screenshot2.png" alt="Groene button op een witte achtergrond">
+  
+  -Color contrast: Er is een duidelijk verschil tussen achtergrond en tekst op de website, op een donkere achtergrond wordt bijvoorbeeld gebruik gemaakt van witte tekst en andersom:
+  <img src="readme-images/colorcontrast-screenshot1.png" alt="Witte button groene achtergrond"> <img src="readme-images/colorcontrast-screenshot2.png" alt="Groene button op een witte achtergrond">
 
 
 
