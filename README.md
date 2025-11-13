@@ -57,6 +57,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  -Headings worden goed gelezen door de screenreader.
+  -Links moeten betere namen krijgen vooral op de home pagina, er staat nu bijvoorbeeld een button met "zie meer" maar van wat?
 
 </details>
 
