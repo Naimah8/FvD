@@ -90,8 +90,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   -Appearance: Darkmode wordt niet gesupport op de website. Ook kan de text niet groter dan het standaard formaat.
 
   -Animation: Er zijn bijna geen animations op de website, alleen kleine subtiele dingen zoals het uitklappen van het hamburger menu wat geleidelijk gaat. 
-  
+
   -Color contrast: Er is een duidelijk verschil tussen achtergrond en tekst op de website, op een donkere achtergrond wordt bijvoorbeeld gebruik gemaakt van witte tekst en andersom:
+  
   <img src="readme-images/colorcontrast-screenshot1.png" alt="Witte button groene achtergrond"> <img src="readme-images/colorcontrast-screenshot2.png" alt="Groene button op een witte achtergrond">
 
 
