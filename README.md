@@ -92,7 +92,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   -Animation: Er zijn bijna geen animations op de website, alleen kleine subtiele dingen zoals het uitklappen van het hamburger menu wat geleidelijk gaat. 
 
   -Color contrast: Er is een duidelijk verschil tussen achtergrond en tekst op de website, op een donkere achtergrond wordt bijvoorbeeld gebruik gemaakt van witte tekst en andersom:
-
+hfbbhjebhjbrbfhjbef
 
   <img src="readme-images/colorcontrast-screenshot1.png" alt="Witte button groene achtergrond"> <img src="readme-images/colorcontrast-screenshot2.png" alt="Groene button op een witte achtergrond">
 
@@ -111,7 +111,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="/readme-images/screenshot-breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
