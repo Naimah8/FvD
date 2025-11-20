@@ -144,18 +144,19 @@ hfbbhjebhjbrbfhjbef
   <img src="/readme-images/screenshot-section2-voortgang1.png" width="375px" alt="screenshot section 2">
 
   Ook vond ik het lastig om te werken met grid. Het omdraaien van de elementen in de sections vond ik enorm lastig ik heb er uiteindelijk wel iets voor gevonden.
-  
+
   <img src="/readme-images/screenshot-omdraaien-elementen-voortgang1.png" width="375px" alt="screenshot code">
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1      | student 2          | student 3    |
+  | ---            | ---                | ---         |
+  | dit bespreken  | en dit             | - HTML en CSS checken.   
+  | en dat ook nog | dit als er tijd is | - Uitleg over de ruimte tussen elementen
+  | ...            | ...                | - Uitleg over wanneer grid of flexbox 
+  gebruiken op mijn website.            | - Uitleg over een fixed A met responsiveness 
 
 
   ### Verslag van meeting
