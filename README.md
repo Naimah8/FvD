@@ -156,8 +156,10 @@ hfbbhjebhjbrbfhjbef
   | dit bespreken  | en dit             | - HTML en CSS checken.   
   | en dat ook nog | dit als er tijd is | - Uitleg over de ruimte tussen elementen
   | ...            | ...                | - Uitleg over wanneer grid of flexbox
-                                            gebruiken op mijn website. 
-                                        | - Uitleg over een fixed A met responsiveness 
+                                        |   gebruiken op mijn website. 
+                                        |- Uitleg over een fixed A met responsiveness 
+                                        |
+                                        |
 
 
   ### Verslag van meeting
