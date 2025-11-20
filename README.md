@@ -131,9 +131,20 @@ hfbbhjebhjbrbfhjbef
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Tijdens het maken van de opzet van mijn website gingen er veel dingen goed: het werken met flexbox, omdat nog vers in mijn geheugen zat. Het stylen van de header ging ook erg goed.<img src="/readme-images/screenshot-header-voortgang1.png" width="375px" alt="screenshot header"> En het werken met de :root (het kleuren pallet) <img src="/readme-images/screenshot-rootvoortgang1.png" width="375px" alt="screenshot root">
-  Wat minder goed ging is het verplaatsen van de elementen van de zijkant af.<img src="/readme-images/screenshot-section2-voortgang1.png" width="375px" alt="screenshot section 2">
+  Tijdens het maken van de opzet van mijn website gingen er veel dingen goed: het werken met flexbox, omdat nog vers in mijn geheugen zat. Het stylen van de header ging ook erg goed.
+  
+  <img src="/readme-images/screenshot-header-voortgang1.png" width="375px" alt="screenshot header"> 
+  
+  En het werken met de :root (het kleuren pallet) ging ook heel goed
+  
+  <img src="/readme-images/screenshot-root-voortgang1.png" width="375px" alt="screenshot root">
+
+  Wat minder goed ging is het verplaatsen van de elementen van de zijkant af.
+  
+  <img src="/readme-images/screenshot-section2-voortgang1.png" width="375px" alt="screenshot section 2">
+
   Ook vond ik het lastig om te werken met grid. Het omdraaien van de elementen in de sections vond ik enorm lastig ik heb er uiteindelijk wel iets voor gevonden.
+  
   <img src="/readme-images/screenshot-omdraaien-elementen-voortgang1.png" width="375px" alt="screenshot code">
 
 
