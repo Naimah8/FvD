@@ -153,9 +153,9 @@ hfbbhjebhjbrbfhjbef
 
   | Daniel     | Jasmijn         | Naimah    |
   | ---            | ---                | ---         |
-  | dit bespreken  |- onderste elementen| - HTML en CSS checken.   
-  | en dat ook nog | footer             | - Uitleg over de ruimte tussen elementen
-  | ...            | h2 boven de h1 zetten| - Uitleg over wanneer grid of flexbox
+  | dit bespreken  |- elementen footer  | - HTML en CSS checken.   
+  | en dat ook nog | h2 boven de h1 hoe?| - Uitleg over de ruimte tussen elementen
+  | ...            | bij testen wel px? | - Uitleg over wanneer grid of flexbox
 
 
   ### Verslag van meeting
