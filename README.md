@@ -151,11 +151,11 @@ hfbbhjebhjbrbfhjbef
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    |
+  | Daniel     | Jasmijn         | Naimah    |
   | ---            | ---                | ---         |
-  | dit bespreken  | en dit             | - HTML en CSS checken.   
-  | en dat ook nog | dit als er tijd is | - Uitleg over de ruimte tussen elementen
-  | ...            | ...                | - Uitleg over wanneer grid of flexbox
+  | dit bespreken  |- onderste elementen| - HTML en CSS checken.   
+  | en dat ook nog | footer             | - Uitleg over de ruimte tussen elementen
+  | ...            | h2 boven de h1 zetten| - Uitleg over wanneer grid of flexbox
 
 
   ### Verslag van meeting
