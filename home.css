@@ -1,0 +1,527 @@
+/* main van home */
+
+
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+	box-sizing:border-box;  
+	
+  }
+  @font-face {
+	font-family: "Starbucks";
+	src: url(../fonts/49f6eaa3630c71e3-s.p.woff);
+    font-weight: 700;
+    /* dikke */
+  }
+
+  @font-face {
+	font-family: "Starbucks";
+	src: url(../fonts/564f79e771d74376-s.p.woff2);
+    font-weight: 350;
+    /* dunne*/
+  }
+
+  @font-face {
+	font-family: "Starbucks";
+	src: url(../fonts/6aebdeb6fff3abca-s.p.woff);
+    font-weight: 600;
+    /* half*/
+  }
+
+  @font-face {
+	font-family: "Starbucks";
+	src: url(../fonts/fb96a0656cdf22e3-s.p.woff);
+    font-weight: 400;
+    /* normaal*/
+  }
+  @font-face {
+	font-family: "Starbucks raar";
+	src: url(../fonts/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2);
+    /* rare*/
+  }
+
+
+  html {
+    font-family: "Starbucks";
+  }
+
+
+  
+  /*********************/
+  /* CUSTOM PROPERTIES */
+  /*********************/
+  :root {
+	  /* startje */
+	  --color-text-black:#000000;
+	  --color-text-white:#ffff; 
+	  --color-background-green:#006242;
+	  --color-button-green:#006242;
+	  --color-button-white:#ffff;
+	  --color-background-white:#ffff;
+      --color-background-grey:#f7f7f7;
+      --color-background-lightgreen:#01754b;
+  }
+
+
+
+
+
+
+  main {
+    margin:0;
+    padding:0;
+    list-style-type:"";
+    display:grid;
+    grid-template-columns:1fr;
+    gap:1em;
+    padding: 0.9em;
+  }
+
+  @media (min-width: 1024px) { 
+    main {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 4em;
+    }
+  }
+/* Snap ik niet zo goed (chatgpt)*/
+
+/*********************/
+/******SECTION 1******/
+/*********************/
+
+section:nth-of-type(1) { /* snap ik niet zo goed */
+	background-color:var(--color-background-green);
+	display: flex;
+    flex-direction: column;
+    gap: 1em;
+    height: auto;
+    width: 100%;/* dit snap ik niet helemaal */
+    grid-column: 1 / -1;/* dit snap ik niet helemaal */
+  }
+  /* snap ik niet zo goed, maar laat de eerste section niet mee bewegen met de @media*/
+
+  section:nth-of-type(1) h1 {
+	font-family: "Starbucks";
+	color: var(--color-text-white);
+	font-size: 0.8em;
+    margin-left: 1.5em;
+    margin-top: 2em;
+    font-weight: 400;
+  }
+
+  section:nth-of-type(1) a {
+	background: var(--color-button-white);
+	border-radius: 100em;
+	font-size: 70%;
+    text-align: center;
+	font-family: "Starbucks";
+	text-decoration: none; /* snap ik niet zo goed */
+	color: var(--color-text-black);
+    font-weight: 600;
+    padding: 0.8em;
+    margin: 0.7em;
+
+  }
+
+  section:nth-of-type(1) img {
+	width: 100%;
+	height: auto; 
+  }
+
+  img {
+	max-width:100%;
+}
+
+/*********************/
+/******SECTION 2******/
+/*********************/
+
+section:nth-of-type(2){
+    background-color:var(--color-background-grey);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.2em;
+    font-family: "Starbucks";
+
+}
+
+
+    section:nth-of-type(2) img { order: 1; }  
+    section:nth-of-type(2) h2 { order: 2; }
+    section:nth-of-type(2) p  { order: 3; }
+    section:nth-of-type(2) a  { order: 4; }
+
+    
+
+section:nth-of-type(2) img {
+    border-radius: 0.2em;
+    grid-row-start:1;
+    grid-column-start:1;
+    grid-column-end:3;
+
+
+
+}
+section:nth-of-type(2) h2 {
+    text-align: left;
+    font-size: 1em;
+    font-weight: 400;
+    margin-left: 1.1em;
+    margin-bottom: 0;
+    color: var(--color-text-black);
+    grid-row-start:2;
+
+}
+
+section:nth-of-type(2) p {
+    text-align: left;
+    margin: 2em;
+    margin-top: 1em;
+    color: var(--color-text-black);
+    font-size: 0.6em;
+    font-weight: 350;
+    grid-row-start:3;
+
+}
+section:nth-of-type(2) a {
+    background-color: var(--color-button-green);
+    border-radius: 5em;
+    text-align: center;
+    color: var(--color-text-white);
+    text-decoration: none;
+    padding: 0.78em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 4em;
+    font-size: 0.7em;
+    grid-row-start:4;
+
+
+}
+
+/*********************/
+/******SECTION 3******/
+/*********************/
+
+section:nth-of-type(3){
+    background-color:var(--color-background-lightgreen);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.2em;
+    font-family: "Starbucks";
+
+}
+
+    section:nth-of-type(3) img { order: 1; }  
+    section:nth-of-type(3) h2 { order: 2; }
+    section:nth-of-type(3) p  { order: 3; }
+    section:nth-of-type(3) a  { order: 4; }
+
+    
+
+section:nth-of-type(3) img {
+    border-radius: 0.2em;
+    grid-row-start:1;
+    grid-column-start:1;
+    grid-column-end:3;
+
+
+
+}
+section:nth-of-type(3) h2 {
+    text-align: left;
+    font-size: 1em;
+    font-weight: 400;
+    margin-left: 1.1em;
+    margin-bottom: 0;
+    color: var(--color-text-white);
+    grid-row-start:2;
+
+}
+
+section:nth-of-type(3) p {
+    text-align: left;
+    margin: 2em;
+    margin-top: 1em;
+    color: var(--color-text-white);
+    font-size: 0.6em;
+    font-weight: 350;
+    grid-row-start:3;
+
+}
+section:nth-of-type(3) a {
+    background-color: var(--color-button-white);
+    border-radius: 5em;
+    text-align: center;
+    color: var(--color-text-black);
+    text-decoration: none;
+    padding: 0.78em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 4em;
+    font-size: 0.7em;
+    grid-row-start:4;
+}
+
+/*********************/
+/******SECTION 4******/
+/*********************/
+
+section:nth-of-type(4){
+    background-color:var(--color-background-grey);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.2em;
+    font-family: "Starbucks";
+
+}
+
+    section:nth-of-type(4) img { order: 1; }  
+    section:nth-of-type(4) h2 { order: 2; }
+    section:nth-of-type(4) p  { order: 3; }
+    section:nth-of-type(4) a  { order: 4; }
+
+    
+
+section:nth-of-type(4) img {
+    border-radius: 0.2em;
+    grid-row-start:1;
+    grid-column-start:1;
+    grid-column-end:3;
+
+
+
+}
+section:nth-of-type(4) h2 {
+    text-align: left;
+    font-size: 1em;
+    font-weight: 400;
+    margin-left: 1.1em;
+    margin-bottom: 0;
+    color: var(--color-text-black);
+    grid-row-start:2;
+
+}
+
+section:nth-of-type(4) p {
+    text-align: left;
+    margin: 2em;
+    margin-top: 1em;
+    color: var(--color-text-black);
+    font-size: 0.6em;
+    font-weight: 350;
+    grid-row-start:3;
+
+}
+section:nth-of-type(4) a {
+    background-color: var(--color-button-green);
+    border-radius: 5em;
+    text-align: center;
+    color: var(--color-text-white);
+    text-decoration: none;
+    padding: 0.78em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 4em;
+    font-size: 0.7em;
+    grid-row-start:4;
+
+
+}
+
+/*********************/
+/******SECTION 5******/
+/*********************/
+
+section:nth-of-type(5){
+    background-color:var(--color-background-lightgreen);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.2em;
+    font-family: "Starbucks";
+
+}
+
+    section:nth-of-type(5) img { order: 1; }  
+    section:nth-of-type(5) h2 { order: 2; }
+    section:nth-of-type(5) p  { order: 3; }
+    section:nth-of-type(5) a  { order: 4; }
+
+    
+
+section:nth-of-type(5) img {
+    border-radius: 0.2em;
+    grid-row-start:1;
+    grid-column-start:1;
+    grid-column-end:3;
+
+
+
+}
+section:nth-of-type(5) h2 {
+    text-align: left;
+    font-size: 1em;
+    font-weight: 400;
+    margin-left: 1.1em;
+    margin-bottom: 0;
+    color: var(--color-text-white);
+    grid-row-start:2;
+
+}
+
+section:nth-of-type(5) p {
+    text-align: left;
+    margin: 2em;
+    margin-top: 1em;
+    color: var(--color-text-white);
+    font-size: 0.6em;
+    font-weight: 350;
+    grid-row-start:3;
+
+}
+section:nth-of-type(5) a {
+    background-color: var(--color-button-white);
+    border-radius: 5em;
+    text-align: center;
+    color: var(--color-text-black);
+    text-decoration: none;
+    padding: 0.78em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 4em;
+    font-size: 0.7em;
+    grid-row-start:4;
+}
+
+/*********************/
+/******SECTION 6******/
+/*********************/
+
+section:nth-of-type(6){
+    background-color:var(--color-background-grey);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.2em;
+    font-family: "Starbucks";
+
+}
+
+    section:nth-of-type(6) img { order: 1; }  
+    section:nth-of-type(6) h2 { order: 2; }
+    section:nth-of-type(6) p  { order: 3; }
+    section:nth-of-type(6) a  { order: 4; }
+
+    
+
+section:nth-of-type(6) img {
+    border-radius: 0.2em;
+    grid-row-start:1;
+    grid-column-start:1;
+    grid-column-end:3;
+
+
+
+}
+section:nth-of-type(6) h2 {
+    text-align: left;
+    margin-left: 1.1em;
+    margin-bottom: 0;
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--color-text-black);
+    grid-row-start:2;
+
+
+}
+
+section:nth-of-type(6) p {
+    text-align: left;
+    margin: 2em;
+    margin-top: 1em;
+    color: var(--color-text-black);
+    font-size: 0.6em;
+    font-weight: 350;
+    grid-row-start:3;
+
+}
+section:nth-of-type(6) a {
+    background-color: var(--color-button-green);
+    border-radius: 5em;
+    text-align: center;
+    color: var(--color-text-white);
+    text-decoration: none;
+    padding: 0.78em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 4em;
+    font-size: 0.7em;
+    grid-row-start:4;
+
+
+}
+
+/*********************/
+/******SECTION 7******/
+/*********************/
+
+section:nth-of-type(7){
+    background-color:var(--color-background-green);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.2em;
+    font-family: "Starbucks";
+    width: 100%;/* dit snap ik niet helemaal */
+    grid-column: 1 / -1;/* dit snap ik niet helemaal */
+
+}
+    section:nth-of-type(7) img { order: 1; }  
+    section:nth-of-type(7) h2 { order: 2; }
+    section:nth-of-type(7) p  { order: 3; }
+    section:nth-of-type(7) a  { order: 4; }
+
+    
+
+section:nth-of-type(7) img {
+    border-radius: 0.2em;
+    grid-row-start:1;
+    grid-column-start:1;
+    grid-column-end:3;
+
+
+
+}
+section:nth-of-type(7) h2 {
+    text-align: left;
+    font-size: 1em;
+    font-weight: 400;
+    margin-left: 1.1em;
+    margin-bottom: 0;
+    color: var(--color-text-white);
+    grid-row-start:2;
+
+}
+
+section:nth-of-type(7) p {
+    text-align: left;
+    margin: 2em;
+    margin-top: 1em;
+    color: var(--color-text-white);
+    font-size: 0.6em;
+    font-weight: 350;
+    grid-row-start:3;
+
+}
+section:nth-of-type(7) a {
+    background-color: var(--color-button-white);
+    border-radius: 5em;
+    text-align: center;
+    color: var(--color-text-black);
+    text-decoration: none;
+    padding: 0.78em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 4em;
+    font-size: 0.7em;
+    grid-row-start:4;
+}
